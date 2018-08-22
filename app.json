@@ -1,0 +1,6 @@
+{
+    "name": "INTEC Anywhere",
+    "description": "CORS bypass for INTEC requests.",
+    "repository": "https://github.com/pedroslopez/intec-anywhere",
+    "keywords": ["node", "express", "cors", "cors-anywhere"]
+}
