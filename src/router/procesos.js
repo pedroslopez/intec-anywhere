@@ -28,7 +28,7 @@ router.post('/:endpoint(*)', (req, response) => {
         return response.send("Please specify a request method.");
     }
 
-    let payload = method == "GET" ? req.body.payload : undefined;
+    let payload = method == "POST" ? req.body.payload : undefined;
 
     rqst.post('/', (err, res) => {
         if(!err && res.statusCode == 302) {
