@@ -1,0 +1,24 @@
+{
+  "name": "intec-anywhere",
+  "version": "1.0.0",
+  "description": "Server that allows you to bypass CORS limitations for requests to INTEC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroslopez/intec-anywhere.git"
+  },
+  "author": "Pedro Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroslopez/intec-anywhere/issues"
+  },
+  "homepage": "https://github.com/pedroslopez/intec-anywhere#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "request": "^2.88.0"
+  }
+}
