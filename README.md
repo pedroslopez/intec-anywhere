@@ -3,6 +3,12 @@
 
 **intec-anywhere** is a simple server that allows you to bypass the same-origin policy for requests to INTEC's websites. It was inspired by the cors-anywhere project, but was made since these requests require a login to access these resources.
 
+### Why?
+
+This was created so that 3rd-party, web-based tools are able to be made that interact with INTEC to provide a better experience to students. The same-origin policy prevents a login to be directly excecuted from the client side in web applications. Previous to this project, such tools were made as mobile or desktop applications, but this allows them to run on the web.
+
+For an example on what can be done issuing requests like these, check out my article on ["Using Web Scraping to Solve Problems and Create Value"](https://medium.com/@pedroslopez/using-web-scraping-to-solve-problems-and-create-value-843763bfbae5)
+
 ### How to use
 
 This server works by sending a POST request to the server that contains authorization credentials, the HTTP method to use and a JSON payload to be sent on POST requests.
