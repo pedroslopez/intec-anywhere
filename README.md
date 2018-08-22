@@ -36,3 +36,8 @@ Method: POST
 Content-Type: application/json
 Body: {"auth": {id: "ID", "password": "PASSWORD"}, "method": "POST", "payload": {"indiceReporte":"1","parametros":{"Ano":"2018","Termino":"1"}}}
 ```
+
+### What's missing?
+At the moment, GET and POST requests to anything in the "procesos" portal is supported, however, requests to other parts of INTEC like "LMS" or others that don't require a login should also be included in the future.
+
+Another issue is the limitation of only being able to issue a single request after login. Ideally, you should be able to specify a series of requests to be excecuted after login to prevent unnecessary strain on the servers.
